@@ -15,6 +15,7 @@ add_clang_library(clangTidyCppCoreGuidelinesModule
   ProTypeVarargCheck.cpp
   SpecialMemberFunctionsCheck.cpp
   SlicingCheck.cpp
+  ThrowingDefaultCtorCheck.cpp
 
   LINK_LIBS
   clangAST

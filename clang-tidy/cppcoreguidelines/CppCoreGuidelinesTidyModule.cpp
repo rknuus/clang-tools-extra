@@ -24,6 +24,7 @@
 #include "ProTypeVarargCheck.h"
 #include "SpecialMemberFunctionsCheck.h"
 #include "SlicingCheck.h"
+#include "ThrowingDefaultCtorCheck.h"
 
 namespace clang {
 namespace tidy {
@@ -59,6 +60,8 @@ public:
         "cppcoreguidelines-special-member-functions");
     CheckFactories.registerCheck<SlicingCheck>(
         "cppcoreguidelines-slicing");
+    CheckFactories.registerCheck<ThrowingDefaultCtorCheck>(
+        "cppcoreguidelines-throwing-default-ctor");
     CheckFactories.registerCheck<misc::UnconventionalAssignOperatorCheck>(
         "cppcoreguidelines-c-copy-assignment-signature");
   }
