@@ -19,6 +19,7 @@ Clang-Tidy Checks
    cert-flp30-c
    cert-oop11-cpp (redirects to misc-move-constructor-init) <cert-oop11-cpp>
    cppcoreguidelines-interfaces-global-init
+   cppcoreguidelines-non-const-global
    cppcoreguidelines-pro-bounds-array-to-pointer-decay
    cppcoreguidelines-pro-bounds-constant-array-index
    cppcoreguidelines-pro-bounds-pointer-arithmetic
